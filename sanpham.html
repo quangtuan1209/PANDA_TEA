@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sản Phẩm</title>
+	<link rel="shortcut icon" href="images/logopanda.jpg"/>
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<!-- đây là link của icon boostrap -->
+	
+	
+</head>
+<body>
+<!-- bố cục của pts -->
+	<div class="pts">
+		<div class="pts_1"></div>
+		<div class="pts_2">
+			<div class="pts_2_left">
+				<img src="img/b1.jpg">
+			</div>
+			<div class="pts_2_right">
+				<input type="text" placeholder="Nhập từ tìm kiếm..." id="tk">
+				<img src="img/1.png" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- bố cục của menu -->
+	<div class="menu">
+		<ul>
+			<li><a href="trangchu.html">&#127969; Trang chủ</a></li>
+			<li><a href="gioithieu.html">&#128073; Giới Thiệu</a></li>
+			<li><a href="sanpham.html">&#127865; Sản Phẩm</a></li>
+			<li><a href="lienhe.html">&#128226; Liên Hệ</a></li>
+			<li><a href="admin/login.php">&#128100; Đăng Nhập</a></li>
+		</ul>
+	</div>
+	<!-- bố cục của banner -->
+	<div class="banner">
+		<img src="img/lk3.jpg" alt="" class="banner_slide" onclick="trans()" style="border-radius: 10px 10px 50px 50px">
+	</div>
+			
+	<div class="product-container">
+		<h1 style="text-align:center;margin-top: 10px;color:red"><b>GIỚI THIỆU SẢN PHẨM</b></h1>
+        <div class="product-row">
+            <div class="product-item">
+                <img src="images/cafedenda-1.jpg" alt="Cà phê đen">
+                <h2>Cà phê đen</h2>
+                <p>Giá: 40.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+            <div class="product-item">
+                <img src="images/cf-phin.png" alt="Cafe phin ">
+                <h2> Cafe phin  </h2>
+                <p>Giá: 35.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+            <div class="product-item">
+                <img src="images/nuoc-ep-cam.webp" alt="Nước cam">
+                <h2>Nước cam</h2>
+                <p>Giá: 20.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+			<div class="product-item">
+                <img src="images/nc-ep-hau.jpg" alt="Nước dưa hấu">
+                <h2>Nước dưa hấu</h2>
+                <p>Giá: 20.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+			<div class="product-item">
+                <img src="images/Trà-sữa-Trân-châu-đen.png" alt="Trà sữa trân châu đường đen  ">
+                <h2>Trà sữa trân châu đường đen  </h2>
+                <p>Giá: 30.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+			<div class="product-item">
+                <img src="images/Trà-sữa-Matcha-đậu-đỏ.png" alt="Trà sữa Matcha đạu đỏ ">
+                <h2>Trà sữa Matcha đậu đỏ</h2>
+                <p>Giá: 30.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+			<div class="product-item">
+                <img src="images/tra-xoai-tranh-leo.png" alt="Trà xoài chanh leo  ">
+                <h2>Trà xoài chanh leo </h2>
+                <p>Giá: 25.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+			<div class="product-item">
+                <img src="images/tra-tac.webp" alt="Trà tắc">
+                <h2>Trà tắc</h2>
+                <p>Giá: 20.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+			<div class="product-item">
+                <img src="images/trà%20oi.png" alt="Trà ổi ">
+                <h2>Trà ổi </h2>
+                <p>Giá: 20.000</p>
+                <button class="buy-button">Mua hàng</button>
+            </div>
+
+			
+        </div>
+		<div class="product-item">
+			<img src="images/st-dua.png" alt="Sinh tố dừa ">
+			<h2>Sinh tố dừa </h2>
+			<p>Giá: 45.000</p>
+			<button class="buy-button">Mua hàng</button>
+		</div>
+		<div class="product-item">
+			<img src="images/sinh-tố%20chuoi.jpg" alt="SInh tố chuối ">
+			<h2>Sinh tố chuối </h2>
+			<p>Giá: 45.000</p>
+			<button class="buy-button">Mua hàng</button>
+		</div>
+		<div class="product-item">
+			<img src="images/SINH-TO-XOAI.webp" alt="Sinh tố xoài">
+			<h2>Sinh tố xoài</h2>
+			<p>Giá: 45.000</p>
+			<button class="buy-button">Mua hàng</button>
+		</div>
+		
+		<!-- bố cục của phần footer -->
+	<div class="footer">
+		<div class="footer1">
+			<h3>&#128315; Chính Sách</h3>
+			<p><a href="#"> &#127963; Chính sách giao hàng</a></p>
+			<p><a href="#">&#127973; Chính sách thanh toán</a></p>
+			<p><a href="#"> &#128203; Chính sách vận chuyển</a></p>
+			<p><a href="#">&#128106; Khách hàng thân thiết</a></p>
+		</div>
+		<div class="footer2">
+			<h3> &#128315; Liên Hệ</h3>
+			<p><a href="#">&#128231; Email:</i> pandatea01@gmail.com</a></p>
+			<p><a href="#">&#128222; Hotline</i>0123456789</a></p>
+			<p><a href="#">&#127968; Địa Chỉ: </i> 56 Lê Văn Hiến - Bắc Từ Liêm - Hà Nội</a></p>
+		</div>
+		<div class="footer3">
+			<h3> &#128315; Sản Phẩm</h3>
+			<p>&#128102;<a href="">Cà Phê Việt</a></p>
+			<p>	&#127854;<a href=""> Cà Phê</a></p>
+			<p>	&#127863;<a href=""> Nước Ép - Trà</a></p>
+			<p>&#127865;<a href=""> Sinh Tố</a></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/1.js"></script>
+	</body>
+</html>
